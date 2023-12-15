@@ -1,0 +1,234 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;}
+ alink{color: #000000;}
+ avisited{color: #000000;}
+ a:hover{color: #ffffff;}
+ a:active{color: #ffffff;}
+ 
+     
+ .nav{
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     justify-content: space-between;
+     z-index: 99;
+     }
+ .menu{}
+ .menu a{
+     display: block;
+     width: 20vw;
+     height:20px;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     padding: 5px 0px;
+     font-size: 15pt;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-align: center;
+     margin-bottom: 1px;
+     padding-top: 40px;
+     
+ }
+ .menu a:hover{
+     background-color: #E3AA2A;
+     color: white;}   
+
+.design_main{
+     position: fixed;
+     top: 55px;
+     left: 50%;
+     transform: translateX(-50%);
+     z-index: 1;
+     background-image: url(img/design_main.png);
+     background-size: cover;
+     width: 100%;
+}
+.design_scroll{
+    position: absolute;
+    position: fixed;
+    padding-left: 750px;
+    top: 720px;
+    z-index: 4;
+}
+.design_under{
+    position: absolute;
+     top: 772px;
+     z-index: 4;
+     background-image: url(img/design_under_pic.png);
+}
+.door_closed{
+    position: absolute;
+     top: 1050px;
+     left: 500px;
+     z-index: 6;
+     
+}
+.door_lamp1{
+    position: absolute;
+     top: 1100px;
+     left: 387px;
+     z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+.text1{
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    font-size: 23pt;
+    top: 240px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    left: 635px;
+    position: absolute;
+    position: fixed;
+}
+.text2{
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    font-size: 75pt;
+    top: 320px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    left: 540px;
+    position: absolute;
+    position: fixed;
+}
+.text3{
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    font-size: 23pt;
+    top: 500px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    left: 635px;
+    position: absolute;
+    position: fixed;
+}
+.text4{
+    z-index: 4;
+    text-align: center;
+    font-size: 10pt;
+    top: 700px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    left: 717px;
+    position: absolute;
+    position: fixed;
+}
+
+
+.text5{
+    z-index: 6;
+    text-align: center;
+    font-size: 10pt;
+    top: 1000px;
+    color: rgb(34, 34, 34);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    left: 705px;
+    position: absolute;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.menu_top_bar{
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    z-index:99;
+    position: fixed;
+
+}  
+.menu_top_bar2{
+    position: absolute;
+    left:0px;
+    top: -150px;
+    z-index:99;
+    position: fixed;
+background-color: #ffffff;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+    background-color: white;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    position: fixed;
+    z-index: 97;
+    left: 0px;
+    width: 1920px;
+}
+nav ul{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 98;
+    
+}
+nav ul li{
+    position: relative;
+    width: 100px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    left: -210px;
+    
+}
+nav ul li a{
+    color: #000000;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+    height: 30px;
+    width: 216px;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: #E3AA2A;
+    height: 40px;
+    
+ 
+}
